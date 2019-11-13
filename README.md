@@ -1,0 +1,1 @@
+Example app for Continuous Integration
