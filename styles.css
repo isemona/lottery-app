@@ -1,8 +1,18 @@
-.golden-ticket {
+#yes {
     border: thin solid #444444;
-    background-color: lightskyblue;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    color: white;
+}
+
+.luck {
     text-align: center;
     padding: 10px 5px 20px 5px;
     margin: 100px 300px 20px 300px;
-    border: 10px 10px 10px 10px;;
+    border: 10px 10px 10px 10px;
+    width: 115px;
 }
