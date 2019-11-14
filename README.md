@@ -1,4 +1,6 @@
-Example application for Continuous Integration using CircleCI
+#Lottery App
+
+##Example application for Continuous Integration using CircleCI
 
 This sample app contains a test to check that a new text is displayed when a button is clicked.
 
