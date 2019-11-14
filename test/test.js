@@ -1,21 +1,3 @@
-// var assert = require('assert');
-// describe('string name', function() {
-//     it('should return -1 when the string is not Yes!', function(){
-//     // assert.equal(actual, expected);
-//       assert.equal("Yes!","Yes!");
-//     });
-// });
-
-
-// var assert = require('assert');
-// describe('Array', function() {
-//   describe('#indexOf()', function() {
-//     it('Should find the string output "Yes!"', function() {
-//       assert.equal([1, 2, 3].indexOf(4), -1);
-//     });
-//   });
-// });
-
 const jsdom = require('jsdom')
 const { JSDOM } = jsdom
 const expect = require('chai').expect
@@ -42,6 +24,6 @@ describe('Click Event', function() {
    buttonElement.dispatchEvent(event)
 
    // Compare the value
-   expect(boxElement.innerHTML).to.equal("TESTING");
+   expect(boxElement.innerHTML).to.equal("Yes!");
  });
 })

@@ -2,19 +2,29 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
     <title>Document</title>
 </head>
-<body class="luck">
-    <div>
-        <h1 >Are you lucky?</h1>
-        <button id="yes">Click me!</button>
-        <div id="box"></div>
-    </div>
-</body>
-</html>
 
-<script src="lottery_app.js"></script>
+<body>
+    <h1>Are you lucky?</h1>
+    <button id="button" class="yes">CLICK THIS BUTTON</button>
+    <div id="box"></div>
+    <script type="text/javascript">
+        (function (window, document, undefined) {
+            window.onload = init();
+            function init() {
+                var box = document.getElementById("box");
+                var button = document.getElementById("button");
+                button.onclick = function () {
+                    box.innerHTML = "Yes!";
+                };
+            }
+        })(window, document, undefined);
+    </script>
+</body>
+
+</html>
