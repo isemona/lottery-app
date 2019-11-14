@@ -24,6 +24,6 @@ describe('Click Event', function() {
    buttonElement.dispatchEvent(event)
 
    // Compare the value
-   expect(boxElement.innerHTML).to.equal("Yes!");
+   expect(boxElement.innerHTML).to.equal("Yes you are!");
  });
 })
