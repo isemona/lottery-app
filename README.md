@@ -9,6 +9,5 @@ Mocha - https://mochajs.org/ \
 JSDOM - https://github.com/rstacruz/jsdom-global \
 Chai.js - https://github.com/chaijs/chai \
 
-To test this app run 
-$ npm test
+To test this app run **$ npm test**
 
