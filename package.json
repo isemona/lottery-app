@@ -7,7 +7,7 @@
     "chai": "^4.2.0"
   },
   "devDependencies": {
-    "jsdom": "15.2.1",
+    "jsdom": "16.5.0",
     "jsdom-global": "3.0.2",
     "mocha": "^6.2.2",
     "nyc": "^14.1.1"
